@@ -60,11 +60,11 @@ const About: React.FC = () => {
               <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-1 rounded-2xl shadow-xl">
                 <div className="bg-white p-4 rounded-xl h-full">
                   <div className="relative overflow-hidden rounded-lg aspect-square">
-                    <img 
-                      src="/raghav-profile.jpg" 
-                      alt="Raghav Gupta"
-                      className="w-full h-full object-cover"
-                    />
+                  <img src={`${import.meta.env.BASE_URL}raghav-profile.jpg`} 
+                  alt="Raghav Gupta" 
+                  className="w-full h-full object-cover"
+                  />
+
                   </div>
                 </div>
               </div>
